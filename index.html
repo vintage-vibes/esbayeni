@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo.1.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
-    <title>Esbayeni Resturant</title>
+    <title>Esibayeni Resturant</title>
     <link rel="stylesheet" href="style.css">
 
 
@@ -16,55 +17,67 @@
 </head>
 <body>
 <section class="header fade" id="home">
-    
-        <ul class="mobile-nav">
-        
-            <li><svg class=" close-icon w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
-            </svg>
-            </li>
-            <li><a href="#service">menu</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#info">more info</a></li>
-            <li><a href="#contact">contact</a></li>
 
-        </ul>    
+    <!-- Background Video -->
+    <video class="hero-video" autoplay muted loop playsinline>
+        <source src="img/esi.7.mp4" type="video/mp4">
+      
+    </video>
+
+    <!-- Dark Overlay -->
+    <div class="hero-overlay"></div>
+
+    <ul class="mobile-nav">
+
+        <li>
+            <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
+            </svg>
+        </li>
+
+        <li><a href="#service">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#info">More Info</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
 
     <div class="top-nav">
-        <div class="logo">
-            Esbayeni Resturant
-        </div>
+        <img src="img/logo.1.png" alt="" class="logo">
 
-      
         <nav class="navbar">
-             <ul>
-                <!-- <li><a href="#home">home</a></li> -->
-                <li class="show-menu"><a href="#service">menu</a></li>
-                <li class="show-menu"><a href="#about">about</a></li>
-                <li class="show-menu"><a href="#info">more info</a></li>
-                <li class="show-menu"><a href="#contact">contact</a></li>
-                <li ><svg class=" burger-menu w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+            <ul>
+                <li class="show-menu"><a href="#service">Menu</a></li>
+                <li class="show-menu"><a href="#about">About</a></li>
+                <li class="show-menu"><a href="#info">More Info</a></li>
+                <li class="show-menu"><a href="#contact">Contact</a></li>
+
+                <li>
+                    <svg class="burger-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
                     </svg>
                 </li>
             </ul>
         </nav>
-    </div>            
+    </div>
 
     <div class="hero">
+
         <div class="subtitle">
-          <p>Where Great Taste Meets Great Service</p>
+            <p>Where every bite feels like home.</p>
         </div>
 
-            <h1>Esbayeni Resturant</h1>
+        <img src="img/logo.1.png" alt="" class="hero-img">
 
         <div class="hero-description">
-           Discover freshly prepared meals, authentic local flavours, and warm hospitality in the heart of Ladysmith. 
+            Savor the taste of tradition and elegance at
+            Esibayeni Restaurant.
         </div>
-
-        <div class="hero-btn">
-            <a href="#">Order Now</a>
+        <div class="btn-container">
+            <a href="" class="hero-btn">Order Now</a>
+            <a href="" class="hero-btn secondary">View Our Services</a>
         </div>
+        
 
     </div>
 
@@ -83,24 +96,46 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide card">
-        <img src="img/img.2.jpeg" alt="">
-            <h2>Sandwich</h2>
-                <p>best Sandwich around</p>
-                <a href="#" class="card-btn">Learn More</a>
+        <img src="img/phakathi.jpeg" alt="">
+            <h2>Umgxabhiso</h2>
+            
+            <p>Choose from tender beef or tripe.</p>
+            <p class="Serving">Served with freshly prepared pap.</p>
+
+                <a href="#" class="card-btn">Order Now</a>
     </div>
 
     <div class="swiper-slide card">
-         <img src="img/img.3.jpeg" alt="">
-                <h2>Sandwich</h2>
-                <p>best Sandwich around</p>
-                <a href="#" class="card-btn">Learn More</a>
+         <img src="img/curry.jpeg" alt="">
+             
+           <h2>Traditional Curry</h2>
 
+            <p>Chicken, beef, or wors cooked in a rich curry sauce.</p>
+            <p class="Serving">Served with pap or rice.</p>
+
+            <a href="#" class="card-btn">Order Now</a>
+
+    </div>
+    <div class="swiper-slide card">
+      <img src="img/coffee.jpeg" alt="">
+     
+        <h2>Tea & Coffee</h2>
+
+            <p>Freshly brewed tea or premium coffee.</p>
+            <p class="Serving">Served with a delicious slice of cake.</p>
+
+                <a href="#" class="card-btn">Order Now</a>
     </div>
     <div class="swiper-slide card">
       <img src="img/img.4.jpeg" alt="">
-                <h2>Sandwich</h2>
-                <p>best Sandwich around</p>
-                <a href="#" class="card-btn">Learn More</a>
+
+        <h2>Mixed Grill</h2>
+
+            <p>Choose from beef, chicken, or wors.</p>
+            <p class="Serving">Served with pap and homemade chakalaka.</p>
+
+
+                <a href="#" class="card-btn">Order Now</a>
     </div>
     
   </div>
@@ -129,7 +164,7 @@
     </div>
     <div class="about-container">
         <div class="about-img">
-            <img src="img/img.13.jpeg" alt="#esbayeni Resturant">
+            <img src="img/img.13.jpeg" alt="#Esibayeni Resturant">
         </div>
         <div class="about-text">
 
@@ -138,7 +173,7 @@
             </h3>
 
             <p>
-                At Esbayeni Restaurant, we believe that great food brings people together.
+                At Esibayeni Restaurant, we believe that great food brings people together.
             Every meal is prepared with fresh ingredients, rich flavours, and a passion
             for quality that you can taste in every bite.
             </p>
@@ -163,7 +198,7 @@
 
 <section class="more-info fade" id="info">
     <div class="section-title">
-        <h2> Why Choose Esbayeni Restaurant</h2>
+        <h2> Why Choose Esibayeni Restaurant</h2>
         <div class="section-title-subtitle">
                  <p>Fresh ingredients, authentic flavours, and exceptional service in every meal.</p>
         </div>
@@ -234,7 +269,7 @@
 
             <div class="contact-box">
                 <h3>✉️ Email</h3>
-                <p>info@esbayenirestaurant.co.za</p>
+                <p>info@Esibayenirestaurant.co.za</p>
             </div>
 
             <div class="contact-box">
@@ -270,7 +305,7 @@
     <div class="footer-container">
 
         <div class="footer-logo">
-            <h2>Esbayeni Restaurant</h2>
+            <h2>Esibayeni Restaurant</h2>
             <p>
                 Serving fresh, delicious meals made with quality ingredients.
                 Experience authentic flavours and warm hospitality every day.
@@ -294,13 +329,13 @@
 
             <p>📍 Ladysmith, KwaZulu-Natal</p>
             <p>📞 +27 82 123 4567</p>
-            <p>✉️ info@esbayeni.co.za</p>
+            <p>✉️ info@Esibayeni.co.za</p>
         </div>
 
     </div>
 
     <div class="footer-bottom">
-        <p>&copy; 2026 Esbayeni Restaurant. All Rights Reserved.</p>
+        <p>&copy; 2026 Esibayeni Restaurant. All Rights Reserved.</p>
     </div>
 
 </footer>
